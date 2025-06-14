@@ -2,7 +2,7 @@ from fastapi import APIRouter, HTTPException, Query
 
 from app.database import get_db
 from app.schemas import (MaqalListResponse, MaqalResponse, SearchResponse,
-                        TopicMaqalResponse, TopicsResponse)
+                         TopicMaqalResponse, TopicsResponse)
 from app.utils import (create_maqal_from_row, create_pagination,
                        create_topic_from_row)
 
