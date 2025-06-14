@@ -1,7 +1,7 @@
 import json
 from datetime import datetime
 
-from app.models import Maqal, PaginationInfo, TopicInfo
+from app.schemas import Maqal, PaginationInfo, TopicInfo
 
 
 def create_maqal_from_row(row) -> Maqal:
