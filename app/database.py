@@ -1,7 +1,6 @@
-import sqlite3
 import json
+import sqlite3
 from contextlib import contextmanager
-from typing import List, Dict, Any
 
 DATABASE_URL = "maqal_matel.db"
 

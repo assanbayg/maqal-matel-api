@@ -1,28 +1,38 @@
-from fastapi import FastAPI, HTTPException, Query
-from typing import List, Optional
-from app.database import init_db, get_db
-from app.utils import paginated_response
 import json
+from contextlib import asynccontextmanager
 
-app = FastAPI(title="Maqal-matel API")
+from fastapi import FastAPI, HTTPException, Query
 
+from app.database import get_db, init_db
+from app.models import (
+    MaqalListResponse,
+    MaqalResponse,
+    SearchResponse,
+    TopicMaqalResponse,
+    TopicsResponse,
+)
+from app.utils import create_maqal_from_row, create_pagination, create_topic_from_row
+
+
+# Initialize db on startup
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    init_db()
+    yield
+
+
+app = FastAPI(title="Maqal-matel API", lifespan=lifespan)
 
 with open("data/maqal_matel_data.json", "r", encoding="utf-8") as file:
     data = json.load(file)
 
 
-# Initialize db on startup
-@app.on_event("startup")
-async def startup_event():
-    init_db()
-
-
-@app.get("/")
+@app.get("/", tags=["General"])
 def read_root():
     return {"message": "Maqal-matel API жұмыс істеп тұр! 🇰🇿"}
 
 
-@app.get("/random")
+@app.get("/random", response_model=MaqalResponse, tags=["Maqal"])
 def get_random_maqal():
     with get_db() as conn:
         cursor = conn.cursor()
@@ -32,15 +42,12 @@ def get_random_maqal():
         if not row:
             raise HTTPException(status_code=404, detail="Мақал-мәтел табылмады(")
 
-        return {
-            "id": row["id"],
-            "text": row["text"],
-            "topics": json.loads(row["topics"]),
-            "created_at": row["created_at"],
-        }
+        return MaqalResponse(
+            data=create_maqal_from_row(row), message="Random maqal retrieved"
+        )
 
 
-@app.get("/maqal-matel")
+@app.get("/maqal-matel", response_model=MaqalListResponse, tags=["Maqal"])
 def get_all_maqals(
     page: int = Query(1, ge=1, description="Page number"),
     limit: int = Query(10, ge=1, le=100, description="Items per page"),
@@ -64,28 +71,15 @@ def get_all_maqals(
         )
 
         rows = cursor.fetchall()
-
-        results = []
-        for row in rows:
-            results.append(
-                {
-                    "id": row["id"],
-                    "text": row["text"],
-                    "topics": json.loads(row["topics"]),
-                    "created_at": row["created_at"],
-                }
-            )
-
-        return paginated_response(
-            results,
-            total,
-            page,
-            limit,
-            f"Page {page} of {(total + limit - 1) // limit}",
+        results = [create_maqal_from_row(row) for row in rows]
+        return MaqalListResponse(
+            results=results,
+            pagination=create_pagination(total, page, limit),
+            message=f"Page {page} of {(total + limit - 1) // limit}",
         )
 
 
-@app.get("/maqal-matel/{id}")
+@app.get("/maqal-matel/{id}", response_model=MaqalResponse, tags=["Maqal"])
 def get_maqal(id: int):
     with get_db() as conn:
         cursor = conn.cursor()
@@ -95,26 +89,29 @@ def get_maqal(id: int):
         if not row:
             raise HTTPException(status_code=404, detail="Мақал-мәтел табылмады(")
 
-        return {
-            "id": row["id"],
-            "text": row["text"],
-            "topics": json.loads(row["topics"]),
-            "created_at": row["created_at"],
-        }
+        return MaqalResponse(
+            data=create_maqal_from_row(row), message="Maqal retrieved successfully"
+        )
 
 
-@app.get("/search")
+@app.get("/search", response_model=SearchResponse, tags=["Maqal"])
 def search_maqal(
     query: str = Query(..., min_length=1, description="Search query", alias="q"),
     page: int = Query(1, ge=1, description="Page number"),
     limit: int = Query(10, ge=1, le=50, description="Maximum results"),
 ):
     """Search maqal-matel by text content with pagination"""
+    offset = (page - 1) * limit
+    search_term = f"%{query}%"
+
     with get_db() as conn:
         cursor = conn.cursor()
 
-        offset = (page - 1) * limit
-        search_term = f"%{query}%"
+        # Find total number of maqal-matel
+        cursor.execute(
+            "SELECT COUNT(*) FROM maqal_matelder WHERE text LIKE ?", (search_term,)
+        )
+        total = cursor.fetchone()[0]
 
         cursor.execute(
             """
@@ -128,26 +125,16 @@ def search_maqal(
 
         rows = cursor.fetchall()
 
-        results = []
-        for row in rows:
-            results.append(
-                {
-                    "id": row["id"],
-                    "text": row["text"],
-                    "topics": json.loads(row["topics"]),
-                    "created_at": row["created_at"],
-                }
-            )
-
-        return {
-            "query": query,
-            **paginated_response(
-                results, total, page, limit, f"Search results for '{query}'"
-            ),
-        }
+        results = [create_maqal_from_row(row) for row in rows]
+        return SearchResponse(
+            query=query,
+            results=results,
+            pagination=create_pagination(total, page, limit),
+            message=f"Page {page} of {(total + limit - 1) // limit}",
+        )
 
 
-@app.get("/topics")
+@app.get("/topics", response_model=TopicsResponse, tags=["Maqal"])
 def get_all_topics():
     """Get all unique topics with counts"""
     with get_db() as conn:
@@ -163,18 +150,15 @@ def get_all_topics():
 
         rows = cursor.fetchall()
 
-        topics = []
-        for row in rows:
-            topics.append({"topic": row["topic"], "count": row["count"]})
-
-        return {
-            "topics": topics,
-            "total_topics": len(topics),
-            "message": f"{len(topics)} ерекше тақырып табылды",
-        }
+        topics = [create_topic_from_row(row) for row in rows]
+        return TopicsResponse(
+            topics=topics,
+            message="Topics retrieved successfully",
+            total_topics=len(topics),
+        )
 
 
-@app.get("/topics/{topic}")
+@app.get("/topics/{topic}", response_model=TopicMaqalResponse, tags=["Maqal"])
 def search_maqals_by_topic(
     topic: str,
     page: int = Query(1, ge=1, description="Page number"),
@@ -197,20 +181,10 @@ def search_maqals_by_topic(
 
         rows = cursor.fetchall()
 
-        results = []
-        for row in rows:
-            results.append(
-                {
-                    "id": row["id"],
-                    "text": row["text"],
-                    "topics": json.loads(row["topics"]),
-                    "created_at": row["created_at"],
-                }
-            )
-
-        return {
-            "topic": topic,
-            "results": results,
-            "count": len(results),
-            "message": f"'{topic}' тақырыбына {len(results)} мақал-мәтел табылды.",
-        }
+        results = [create_maqal_from_row(row) for row in rows]
+        return TopicMaqalResponse(
+            topic=topic,
+            results=results,
+            pagination=create_pagination(len(results), page, limit),
+            message=f"Page {page} of {(len(results) + limit - 1) // limit}",
+        )
