@@ -28,7 +28,7 @@ def init_db():
     if count == 0:
         print("Loading data from JSON...")
 
-        with open("data/maqal_matel_data.json", "r", encoding="utf-8") as file:
+        with open("data/cleaned_proverbs.json", "r", encoding="utf-8") as file:
             data = json.load(file)
 
         for maqal in data:

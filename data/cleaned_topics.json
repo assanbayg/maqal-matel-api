@@ -1,0 +1,2522 @@
+{
+  "success": true,
+  "total_topics": 629,
+  "topics": [
+    {
+      "topic": "тамақ",
+      "count": 863
+    },
+    {
+      "topic": "жануар",
+      "count": 721
+    },
+    {
+      "topic": "төрт түлік мал",
+      "count": 668
+    },
+    {
+      "topic": "адам",
+      "count": 564
+    },
+    {
+      "topic": "өмір",
+      "count": 545
+    },
+    {
+      "topic": "ел",
+      "count": 473
+    },
+    {
+      "topic": "сөз",
+      "count": 460
+    },
+    {
+      "topic": "тәрбие",
+      "count": 423
+    },
+    {
+      "topic": "ерлік",
+      "count": 415
+    },
+    {
+      "topic": "еңбек",
+      "count": 407
+    },
+    {
+      "topic": "жаман",
+      "count": 358
+    },
+    {
+      "topic": "тіл",
+      "count": 353
+    },
+    {
+      "topic": "байлық",
+      "count": 340
+    },
+    {
+      "topic": "ақыл",
+      "count": 321
+    },
+    {
+      "topic": "жақсы",
+      "count": 291
+    },
+    {
+      "topic": "бала",
+      "count": 262
+    },
+    {
+      "topic": "білім",
+      "count": 241
+    },
+    {
+      "topic": "өнер",
+      "count": 240
+    },
+    {
+      "topic": "достық",
+      "count": 222
+    },
+    {
+      "topic": "денсаулық",
+      "count": 221
+    },
+    {
+      "topic": "халық",
+      "count": 220
+    },
+    {
+      "topic": "отбасы",
+      "count": 219
+    },
+    {
+      "topic": "батырлық",
+      "count": 201
+    },
+    {
+      "topic": "ынтымақ",
+      "count": 200
+    },
+    {
+      "topic": "жігіт",
+      "count": 197
+    },
+    {
+      "topic": "жер",
+      "count": 187
+    },
+    {
+      "topic": "туыс",
+      "count": 175
+    },
+    {
+      "topic": "су",
+      "count": 172
+    },
+    {
+      "topic": "кедейлік",
+      "count": 157
+    },
+    {
+      "topic": "ат",
+      "count": 155
+    },
+    {
+      "topic": "орта",
+      "count": 151
+    },
+    {
+      "topic": "қоғамдық құбылыстар",
+      "count": 151
+    },
+    {
+      "topic": "жау",
+      "count": 148
+    },
+    {
+      "topic": "мал",
+      "count": 136
+    },
+    {
+      "topic": "ит",
+      "count": 132
+    },
+    {
+      "topic": "отан",
+      "count": 131
+    },
+    {
+      "topic": "жол",
+      "count": 120
+    },
+    {
+      "topic": "ата",
+      "count": 119
+    },
+    {
+      "topic": "қатын",
+      "count": 114
+    },
+    {
+      "topic": "қыз",
+      "count": 112
+    },
+    {
+      "topic": "егіншілік",
+      "count": 106
+    },
+    {
+      "topic": "құс",
+      "count": 106
+    },
+    {
+      "topic": "жалқаулық",
+      "count": 106
+    },
+    {
+      "topic": "әйел",
+      "count": 104
+    },
+    {
+      "topic": "өлім",
+      "count": 102
+    },
+    {
+      "topic": "ағайын",
+      "count": 102
+    },
+    {
+      "topic": "пейіл",
+      "count": 92
+    },
+    {
+      "topic": "қонақ",
+      "count": 92
+    },
+    {
+      "topic": "ынсап",
+      "count": 88
+    },
+    {
+      "topic": "ана",
+      "count": 86
+    },
+    {
+      "topic": "көз",
+      "count": 85
+    },
+    {
+      "topic": "жолдас",
+      "count": 83
+    },
+    {
+      "topic": "ұят",
+      "count": 83
+    },
+    {
+      "topic": "бас",
+      "count": 79
+    },
+    {
+      "topic": "алтын",
+      "count": 78
+    },
+    {
+      "topic": "көңіл",
+      "count": 73
+    },
+    {
+      "topic": "ақымақ",
+      "count": 70
+    },
+    {
+      "topic": "аңшылық",
+      "count": 66
+    },
+    {
+      "topic": "ұл",
+      "count": 63
+    },
+    {
+      "topic": "ашу",
+      "count": 62
+    },
+    {
+      "topic": "күн",
+      "count": 62
+    },
+    {
+      "topic": "саятшылық",
+      "count": 62
+    },
+    {
+      "topic": "ой",
+      "count": 60
+    },
+    {
+      "topic": "ауыл",
+      "count": 58
+    },
+    {
+      "topic": "сақтық",
+      "count": 57
+    },
+    {
+      "topic": "дау",
+      "count": 56
+    },
+    {
+      "topic": "жан",
+      "count": 54
+    },
+    {
+      "topic": "мінез-құлық",
+      "count": 54
+    },
+    {
+      "topic": "қыран",
+      "count": 53
+    },
+    {
+      "topic": "тас",
+      "count": 51
+    },
+    {
+      "topic": "табиғат",
+      "count": 51
+    },
+    {
+      "topic": "ағаш",
+      "count": 50
+    },
+    {
+      "topic": "жалғыздық",
+      "count": 50
+    },
+    {
+      "topic": "түйе",
+      "count": 50
+    },
+    {
+      "topic": "қол",
+      "count": 50
+    },
+    {
+      "topic": "жалғыз",
+      "count": 49
+    },
+    {
+      "topic": "той",
+      "count": 48
+    },
+    {
+      "topic": "қарттық",
+      "count": 48
+    },
+    {
+      "topic": "ұры",
+      "count": 48
+    },
+    {
+      "topic": "өтірік",
+      "count": 48
+    },
+    {
+      "topic": "ар",
+      "count": 47
+    },
+    {
+      "topic": "дұшпан",
+      "count": 47
+    },
+    {
+      "topic": "көпшілік",
+      "count": 46
+    },
+    {
+      "topic": "бақыт",
+      "count": 44
+    },
+    {
+      "topic": "жарлы",
+      "count": 44
+    },
+    {
+      "topic": "тазы",
+      "count": 44
+    },
+    {
+      "topic": "әке",
+      "count": 44
+    },
+    {
+      "topic": "жақсылық",
+      "count": 44
+    },
+    {
+      "topic": "салт-дәстур",
+      "count": 43
+    },
+    {
+      "topic": "тау",
+      "count": 43
+    },
+    {
+      "topic": "туған",
+      "count": 43
+    },
+    {
+      "topic": "қой",
+      "count": 43
+    },
+    {
+      "topic": "құмай",
+      "count": 43
+    },
+    {
+      "topic": "әдет-ғұрып",
+      "count": 43
+    },
+    {
+      "topic": "аяқ",
+      "count": 42
+    },
+    {
+      "topic": "ажал",
+      "count": 41
+    },
+    {
+      "topic": "ауыз",
+      "count": 40
+    },
+    {
+      "topic": "жанұя",
+      "count": 40
+    },
+    {
+      "topic": "аға",
+      "count": 39
+    },
+    {
+      "topic": "хан",
+      "count": 39
+    },
+    {
+      "topic": "қайғы",
+      "count": 39
+    },
+    {
+      "topic": "адамгершілік",
+      "count": 39
+    },
+    {
+      "topic": "жас",
+      "count": 39
+    },
+    {
+      "topic": "көп",
+      "count": 38
+    },
+    {
+      "topic": "от",
+      "count": 37
+    },
+    {
+      "topic": "шындық",
+      "count": 37
+    },
+    {
+      "topic": "ізгілік",
+      "count": 37
+    },
+    {
+      "topic": "сый",
+      "count": 36
+    },
+    {
+      "topic": "дүние",
+      "count": 35
+    },
+    {
+      "topic": "кәрілік",
+      "count": 35
+    },
+    {
+      "topic": "адалдық",
+      "count": 34
+    },
+    {
+      "topic": "аз",
+      "count": 34
+    },
+    {
+      "topic": "асығу",
+      "count": 34
+    },
+    {
+      "topic": "ақша",
+      "count": 34
+    },
+    {
+      "topic": "дәм",
+      "count": 34
+    },
+    {
+      "topic": "тәлім",
+      "count": 34
+    },
+    {
+      "topic": "қайсарлық",
+      "count": 33
+    },
+    {
+      "topic": "қорқақ",
+      "count": 33
+    },
+    {
+      "topic": "ай",
+      "count": 32
+    },
+    {
+      "topic": "би",
+      "count": 32
+    },
+    {
+      "topic": "бөрі",
+      "count": 32
+    },
+    {
+      "topic": "оқу",
+      "count": 32
+    },
+    {
+      "topic": "құлақ",
+      "count": 32
+    },
+    {
+      "topic": "уақыт",
+      "count": 32
+    },
+    {
+      "topic": "аштық",
+      "count": 31
+    },
+    {
+      "topic": "жүрек",
+      "count": 31
+    },
+    {
+      "topic": "қадір",
+      "count": 31
+    },
+    {
+      "topic": "күш",
+      "count": 30
+    },
+    {
+      "topic": "арыстан",
+      "count": 29
+    },
+    {
+      "topic": "бақ",
+      "count": 29
+    },
+    {
+      "topic": "гүл",
+      "count": 29
+    },
+    {
+      "topic": "есек",
+      "count": 29
+    },
+    {
+      "topic": "жат",
+      "count": 29
+    },
+    {
+      "topic": "көрші",
+      "count": 29
+    },
+    {
+      "topic": "нан",
+      "count": 29
+    },
+    {
+      "topic": "соғыс",
+      "count": 29
+    },
+    {
+      "topic": "құл",
+      "count": 29
+    },
+    {
+      "topic": "дәуір",
+      "count": 28
+    },
+    {
+      "topic": "түлкі",
+      "count": 28
+    },
+    {
+      "topic": "қарт",
+      "count": 28
+    },
+    {
+      "topic": "әкім",
+      "count": 28
+    },
+    {
+      "topic": "келін",
+      "count": 27
+    },
+    {
+      "topic": "қыс",
+      "count": 27
+    },
+    {
+      "topic": "ұрлық",
+      "count": 27
+    },
+    {
+      "topic": "әдеп",
+      "count": 27
+    },
+    {
+      "topic": "алыс",
+      "count": 26
+    },
+    {
+      "topic": "жетім",
+      "count": 26
+    },
+    {
+      "topic": "мінез",
+      "count": 26
+    },
+    {
+      "topic": "сыр",
+      "count": 26
+    },
+    {
+      "topic": "тағлым",
+      "count": 26
+    },
+    {
+      "topic": "шешен",
+      "count": 26
+    },
+    {
+      "topic": "қасқыр",
+      "count": 26
+    },
+    {
+      "topic": "қырағылық",
+      "count": 26
+    },
+    {
+      "topic": "тазалық",
+      "count": 25
+    },
+    {
+      "topic": "ілім",
+      "count": 25
+    },
+    {
+      "topic": "қорқу",
+      "count": 25
+    },
+    {
+      "topic": "жел",
+      "count": 25
+    },
+    {
+      "topic": "аш",
+      "count": 24
+    },
+    {
+      "topic": "молда",
+      "count": 24
+    },
+    {
+      "topic": "сараң",
+      "count": 24
+    },
+    {
+      "topic": "тышқан",
+      "count": 24
+    },
+    {
+      "topic": "бек",
+      "count": 23
+    },
+    {
+      "topic": "жылан",
+      "count": 23
+    },
+    {
+      "topic": "жұмыс",
+      "count": 23
+    },
+    {
+      "topic": "пышақ",
+      "count": 23
+    },
+    {
+      "topic": "сергектік",
+      "count": 23
+    },
+    {
+      "topic": "үйлену",
+      "count": 23
+    },
+    {
+      "topic": "ұйқы",
+      "count": 23
+    },
+    {
+      "topic": "арам",
+      "count": 22
+    },
+    {
+      "topic": "жаз",
+      "count": 22
+    },
+    {
+      "topic": "жамандық",
+      "count": 22
+    },
+    {
+      "topic": "күлкі",
+      "count": 22
+    },
+    {
+      "topic": "көл",
+      "count": 22
+    },
+    {
+      "topic": "тіс",
+      "count": 22
+    },
+    {
+      "topic": "адал",
+      "count": 21
+    },
+    {
+      "topic": "ақ",
+      "count": 21
+    },
+    {
+      "topic": "бәле",
+      "count": 21
+    },
+    {
+      "topic": "дана",
+      "count": 21
+    },
+    {
+      "topic": "кәрі",
+      "count": 21
+    },
+    {
+      "topic": "сауда",
+      "count": 21
+    },
+    {
+      "topic": "сиыр",
+      "count": 21
+    },
+    {
+      "topic": "соқыр",
+      "count": 21
+    },
+    {
+      "topic": "талап",
+      "count": 21
+    },
+    {
+      "topic": "тон",
+      "count": 21
+    },
+    {
+      "topic": "шебер",
+      "count": 21
+    },
+    {
+      "topic": "арман",
+      "count": 20
+    },
+    {
+      "topic": "бал",
+      "count": 20
+    },
+    {
+      "topic": "білу",
+      "count": 20
+    },
+    {
+      "topic": "ет",
+      "count": 20
+    },
+    {
+      "topic": "жақын",
+      "count": 20
+    },
+    {
+      "topic": "заман",
+      "count": 20
+    },
+    {
+      "topic": "мұрат",
+      "count": 20
+    },
+    {
+      "topic": "сыйластық",
+      "count": 20
+    },
+    {
+      "topic": "іні",
+      "count": 20
+    },
+    {
+      "topic": "ұста",
+      "count": 20
+    },
+    {
+      "topic": "әдет",
+      "count": 20
+    },
+    {
+      "topic": "сан",
+      "count": 20
+    },
+    {
+      "topic": "балық",
+      "count": 19
+    },
+    {
+      "topic": "егін",
+      "count": 19
+    },
+    {
+      "topic": "татулық",
+      "count": 19
+    },
+    {
+      "topic": "қарға",
+      "count": 19
+    },
+    {
+      "topic": "шын",
+      "count": 19
+    },
+    {
+      "topic": "құдай",
+      "count": 19
+    },
+    {
+      "topic": "абырой",
+      "count": 18
+    },
+    {
+      "topic": "аспан",
+      "count": 18
+    },
+    {
+      "topic": "базар",
+      "count": 18
+    },
+    {
+      "topic": "бидай",
+      "count": 18
+    },
+    {
+      "topic": "бұлт",
+      "count": 18
+    },
+    {
+      "topic": "ертең",
+      "count": 18
+    },
+    {
+      "topic": "киім",
+      "count": 18
+    },
+    {
+      "topic": "ойын",
+      "count": 18
+    },
+    {
+      "topic": "табиғат құбылыстары",
+      "count": 18
+    },
+    {
+      "topic": "тентек",
+      "count": 18
+    },
+    {
+      "topic": "тұз",
+      "count": 18
+    },
+    {
+      "topic": "шөп",
+      "count": 18
+    },
+    {
+      "topic": "қарыз",
+      "count": 18
+    },
+    {
+      "topic": "сабыр",
+      "count": 18
+    },
+    {
+      "topic": "береке",
+      "count": 17
+    },
+    {
+      "topic": "бет",
+      "count": 17
+    },
+    {
+      "topic": "жаңбыр",
+      "count": 17
+    },
+    {
+      "topic": "жоқ",
+      "count": 17
+    },
+    {
+      "topic": "мақтану",
+      "count": 17
+    },
+    {
+      "topic": "намыс",
+      "count": 17
+    },
+    {
+      "topic": "сын",
+      "count": 17
+    },
+    {
+      "topic": "тәуекел",
+      "count": 17
+    },
+    {
+      "topic": "қара",
+      "count": 17
+    },
+    {
+      "topic": "әділ",
+      "count": 17
+    },
+    {
+      "topic": "ұстаз",
+      "count": 17
+    },
+    {
+      "topic": "жастық",
+      "count": 17
+    },
+    {
+      "topic": "артық",
+      "count": 16
+    },
+    {
+      "topic": "асыл",
+      "count": 16
+    },
+    {
+      "topic": "білмеу",
+      "count": 16
+    },
+    {
+      "topic": "кәсіп",
+      "count": 16
+    },
+    {
+      "topic": "мың",
+      "count": 16
+    },
+    {
+      "topic": "пайда",
+      "count": 16
+    },
+    {
+      "topic": "сұрау",
+      "count": 16
+    },
+    {
+      "topic": "түн",
+      "count": 16
+    },
+    {
+      "topic": "қазан",
+      "count": 16
+    },
+    {
+      "topic": "қан",
+      "count": 16
+    },
+    {
+      "topic": "қоян",
+      "count": 16
+    },
+    {
+      "topic": "құдық",
+      "count": 16
+    },
+    {
+      "topic": "құрмет",
+      "count": 16
+    },
+    {
+      "topic": "өсек",
+      "count": 16
+    },
+    {
+      "topic": "атақ",
+      "count": 15
+    },
+    {
+      "topic": "ащы",
+      "count": 15
+    },
+    {
+      "topic": "беру",
+      "count": 15
+    },
+    {
+      "topic": "еркек",
+      "count": 15
+    },
+    {
+      "topic": "жылқы",
+      "count": 15
+    },
+    {
+      "topic": "кітап",
+      "count": 15
+    },
+    {
+      "topic": "көрік",
+      "count": 15
+    },
+    {
+      "topic": "надан",
+      "count": 15
+    },
+    {
+      "topic": "оқ",
+      "count": 15
+    },
+    {
+      "topic": "сыйлау",
+      "count": 15
+    },
+    {
+      "topic": "сүт",
+      "count": 15
+    },
+    {
+      "topic": "сұлу",
+      "count": 15
+    },
+    {
+      "topic": "түс",
+      "count": 15
+    },
+    {
+      "topic": "төр",
+      "count": 15
+    },
+    {
+      "topic": "құт",
+      "count": 15
+    },
+    {
+      "topic": "ұрыс",
+      "count": 15
+    },
+    {
+      "topic": "өгіз",
+      "count": 15
+    },
+    {
+      "topic": "адам туралы",
+      "count": 14
+    },
+    {
+      "topic": "арба",
+      "count": 14
+    },
+    {
+      "topic": "есеп",
+      "count": 14
+    },
+    {
+      "topic": "етік",
+      "count": 14
+    },
+    {
+      "topic": "жар",
+      "count": 14
+    },
+    {
+      "topic": "жолаушы",
+      "count": 14
+    },
+    {
+      "topic": "кек",
+      "count": 14
+    },
+    {
+      "topic": "нәсіп",
+      "count": 14
+    },
+    {
+      "topic": "олжа",
+      "count": 14
+    },
+    {
+      "topic": "тауық",
+      "count": 14
+    },
+    {
+      "topic": "темір",
+      "count": 14
+    },
+    {
+      "topic": "теңіз",
+      "count": 14
+    },
+    {
+      "topic": "тоқтық",
+      "count": 14
+    },
+    {
+      "topic": "қар",
+      "count": 14
+    },
+    {
+      "topic": "қас",
+      "count": 14
+    },
+    {
+      "topic": "құда",
+      "count": 14
+    },
+    {
+      "topic": "әл",
+      "count": 14
+    },
+    {
+      "topic": "азық",
+      "count": 13
+    },
+    {
+      "topic": "айла",
+      "count": 13
+    },
+    {
+      "topic": "айып",
+      "count": 13
+    },
+    {
+      "topic": "алу",
+      "count": 13
+    },
+    {
+      "topic": "арық",
+      "count": 13
+    },
+    {
+      "topic": "аң",
+      "count": 13
+    },
+    {
+      "topic": "бар",
+      "count": 13
+    },
+    {
+      "topic": "бата",
+      "count": 13
+    },
+    {
+      "topic": "білікті",
+      "count": 13
+    },
+    {
+      "topic": "бүгін",
+      "count": 13
+    },
+    {
+      "topic": "бұлақ",
+      "count": 13
+    },
+    {
+      "topic": "жылау",
+      "count": 13
+    },
+    {
+      "topic": "жүк",
+      "count": 13
+    },
+    {
+      "topic": "ие",
+      "count": 13
+    },
+    {
+      "topic": "кеңес",
+      "count": 13
+    },
+    {
+      "topic": "күйеу",
+      "count": 13
+    },
+    {
+      "topic": "көр",
+      "count": 13
+    },
+    {
+      "topic": "май",
+      "count": 13
+    },
+    {
+      "topic": "мақал",
+      "count": 13
+    },
+    {
+      "topic": "мақтаншақтық",
+      "count": 13
+    },
+    {
+      "topic": "пәле",
+      "count": 13
+    },
+    {
+      "topic": "сенім",
+      "count": 13
+    },
+    {
+      "topic": "сүю",
+      "count": 13
+    },
+    {
+      "topic": "шеше",
+      "count": 13
+    },
+    {
+      "topic": "қазақ",
+      "count": 13
+    },
+    {
+      "topic": "қария",
+      "count": 13
+    },
+    {
+      "topic": "Алла",
+      "count": 12
+    },
+    {
+      "topic": "адасу",
+      "count": 12
+    },
+    {
+      "topic": "арпа",
+      "count": 12
+    },
+    {
+      "topic": "бөрік",
+      "count": 12
+    },
+    {
+      "topic": "ес",
+      "count": 12
+    },
+    {
+      "topic": "ешкі",
+      "count": 12
+    },
+    {
+      "topic": "жомарт",
+      "count": 12
+    },
+    {
+      "topic": "жыл",
+      "count": 12
+    },
+    {
+      "topic": "көктем",
+      "count": 12
+    },
+    {
+      "topic": "мұрын",
+      "count": 12
+    },
+    {
+      "topic": "сараңдық",
+      "count": 12
+    },
+    {
+      "topic": "сүйек",
+      "count": 12
+    },
+    {
+      "topic": "сөйлеу",
+      "count": 12
+    },
+    {
+      "topic": "тәуелсіздік",
+      "count": 12
+    },
+    {
+      "topic": "төркін",
+      "count": 12
+    },
+    {
+      "topic": "у",
+      "count": 12
+    },
+    {
+      "topic": "шаруа",
+      "count": 12
+    },
+    {
+      "topic": "қайрат",
+      "count": 12
+    },
+    {
+      "topic": "қанағат",
+      "count": 12
+    },
+    {
+      "topic": "қорлық",
+      "count": 12
+    },
+    {
+      "topic": "қу",
+      "count": 12
+    },
+    {
+      "topic": "үлкен",
+      "count": 12
+    },
+    {
+      "topic": "бесік",
+      "count": 11
+    },
+    {
+      "topic": "білек",
+      "count": 11
+    },
+    {
+      "topic": "бүркіт",
+      "count": 11
+    },
+    {
+      "topic": "дерт",
+      "count": 11
+    },
+    {
+      "topic": "ем",
+      "count": 11
+    },
+    {
+      "topic": "күлу",
+      "count": 11
+    },
+    {
+      "topic": "көру",
+      "count": 11
+    },
+    {
+      "topic": "мақтау",
+      "count": 11
+    },
+    {
+      "topic": "патша",
+      "count": 11
+    },
+    {
+      "topic": "тай",
+      "count": 11
+    },
+    {
+      "topic": "таң",
+      "count": 11
+    },
+    {
+      "topic": "тілек",
+      "count": 11
+    },
+    {
+      "topic": "тәтті",
+      "count": 11
+    },
+    {
+      "topic": "ғалым",
+      "count": 11
+    },
+    {
+      "topic": "ғылым",
+      "count": 11
+    },
+    {
+      "topic": "қаз",
+      "count": 11
+    },
+    {
+      "topic": "қорқақтық",
+      "count": 11
+    },
+    {
+      "topic": "қымыз",
+      "count": 11
+    },
+    {
+      "topic": "құн",
+      "count": 11
+    },
+    {
+      "topic": "үнемшілдік",
+      "count": 11
+    },
+    {
+      "topic": "Атамекен",
+      "count": 11
+    },
+    {
+      "topic": "арғымақ",
+      "count": 10
+    },
+    {
+      "topic": "аю",
+      "count": 10
+    },
+    {
+      "topic": "бейнет",
+      "count": 10
+    },
+    {
+      "topic": "бие",
+      "count": 10
+    },
+    {
+      "topic": "бит",
+      "count": 10
+    },
+    {
+      "topic": "биік",
+      "count": 10
+    },
+    {
+      "topic": "бұзау",
+      "count": 10
+    },
+    {
+      "topic": "ескі",
+      "count": 10
+    },
+    {
+      "topic": "есік",
+      "count": 10
+    },
+    {
+      "topic": "жеміс",
+      "count": 10
+    },
+    {
+      "topic": "күміс",
+      "count": 10
+    },
+    {
+      "topic": "махаббат",
+      "count": 10
+    },
+    {
+      "topic": "мысық",
+      "count": 10
+    },
+    {
+      "topic": "сыну",
+      "count": 10
+    },
+    {
+      "topic": "сәлем",
+      "count": 10
+    },
+    {
+      "topic": "талас",
+      "count": 10
+    },
+    {
+      "topic": "таяқ",
+      "count": 10
+    },
+    {
+      "topic": "тоқ",
+      "count": 10
+    },
+    {
+      "topic": "қылыш",
+      "count": 10
+    },
+    {
+      "topic": "құрдас",
+      "count": 10
+    },
+    {
+      "topic": "әділдік",
+      "count": 10
+    },
+    {
+      "topic": "билік",
+      "count": 10
+    },
+    {
+      "topic": "азамат",
+      "count": 9
+    },
+    {
+      "topic": "аңшы",
+      "count": 9
+    },
+    {
+      "topic": "аңқау",
+      "count": 9
+    },
+    {
+      "topic": "жем",
+      "count": 9
+    },
+    {
+      "topic": "жіп",
+      "count": 9
+    },
+    {
+      "topic": "жұт",
+      "count": 9
+    },
+    {
+      "topic": "иман",
+      "count": 9
+    },
+    {
+      "topic": "кіші",
+      "count": 9
+    },
+    {
+      "topic": "көлік",
+      "count": 9
+    },
+    {
+      "topic": "көпір",
+      "count": 9
+    },
+    {
+      "topic": "орман",
+      "count": 9
+    },
+    {
+      "topic": "сыпайы",
+      "count": 9
+    },
+    {
+      "topic": "шайтан",
+      "count": 9
+    },
+    {
+      "topic": "шырақ",
+      "count": 9
+    },
+    {
+      "topic": "қайыр",
+      "count": 9
+    },
+    {
+      "topic": "қару",
+      "count": 9
+    },
+    {
+      "topic": "қарғыс",
+      "count": 9
+    },
+    {
+      "topic": "қоныс",
+      "count": 9
+    },
+    {
+      "topic": "үміт",
+      "count": 9
+    },
+    {
+      "topic": "өкпе",
+      "count": 9
+    },
+    {
+      "topic": "кеме",
+      "count": 9
+    },
+    {
+      "topic": "дене",
+      "count": 9
+    },
+    {
+      "topic": "айту",
+      "count": 8
+    },
+    {
+      "topic": "алты",
+      "count": 8
+    },
+    {
+      "topic": "алғыс",
+      "count": 8
+    },
+    {
+      "topic": "амандық",
+      "count": 8
+    },
+    {
+      "topic": "ауыр",
+      "count": 8
+    },
+    {
+      "topic": "ақы",
+      "count": 8
+    },
+    {
+      "topic": "бауыр",
+      "count": 8
+    },
+    {
+      "topic": "бақа",
+      "count": 8
+    },
+    {
+      "topic": "бой",
+      "count": 8
+    },
+    {
+      "topic": "даңқ",
+      "count": 8
+    },
+    {
+      "topic": "дән",
+      "count": 8
+    },
+    {
+      "topic": "ептілік",
+      "count": 8
+    },
+    {
+      "topic": "жомарттық",
+      "count": 8
+    },
+    {
+      "topic": "жоқшылық",
+      "count": 8
+    },
+    {
+      "topic": "жүз",
+      "count": 8
+    },
+    {
+      "topic": "кесір",
+      "count": 8
+    },
+    {
+      "topic": "көшу",
+      "count": 8
+    },
+    {
+      "topic": "мерген",
+      "count": 8
+    },
+    {
+      "topic": "мылжың",
+      "count": 8
+    },
+    {
+      "topic": "мылтық",
+      "count": 8
+    },
+    {
+      "topic": "мұз",
+      "count": 8
+    },
+    {
+      "topic": "ниет",
+      "count": 8
+    },
+    {
+      "topic": "отын",
+      "count": 8
+    },
+    {
+      "topic": "сақал",
+      "count": 8
+    },
+    {
+      "topic": "таз",
+      "count": 8
+    },
+    {
+      "topic": "төре",
+      "count": 8
+    },
+    {
+      "topic": "шаш",
+      "count": 8
+    },
+    {
+      "topic": "шыбын",
+      "count": 8
+    },
+    {
+      "topic": "ысырап",
+      "count": 8
+    },
+    {
+      "topic": "іздеу",
+      "count": 8
+    },
+    {
+      "topic": "қазына",
+      "count": 8
+    },
+    {
+      "topic": "қарын",
+      "count": 8
+    },
+    {
+      "topic": "қарындас",
+      "count": 8
+    },
+    {
+      "topic": "қатты",
+      "count": 8
+    },
+    {
+      "topic": "қойшы",
+      "count": 8
+    },
+    {
+      "topic": "қуаныш",
+      "count": 8
+    },
+    {
+      "topic": "құлан",
+      "count": 8
+    },
+    {
+      "topic": "өзен",
+      "count": 8
+    },
+    {
+      "topic": "өтірікші",
+      "count": 8
+    },
+    {
+      "topic": "әзіл",
+      "count": 8
+    },
+    {
+      "topic": "азан",
+      "count": 7
+    },
+    {
+      "topic": "айран",
+      "count": 7
+    },
+    {
+      "topic": "алақан",
+      "count": 7
+    },
+    {
+      "topic": "алып",
+      "count": 7
+    },
+    {
+      "topic": "ақын",
+      "count": 7
+    },
+    {
+      "topic": "барымта",
+      "count": 7
+    },
+    {
+      "topic": "белгі",
+      "count": 7
+    },
+    {
+      "topic": "бес",
+      "count": 7
+    },
+    {
+      "topic": "болат",
+      "count": 7
+    },
+    {
+      "topic": "бота",
+      "count": 7
+    },
+    {
+      "topic": "білік",
+      "count": 7
+    },
+    {
+      "topic": "бір",
+      "count": 7
+    },
+    {
+      "topic": "бұйрық",
+      "count": 7
+    },
+    {
+      "topic": "етек",
+      "count": 7
+    },
+    {
+      "topic": "жара",
+      "count": 7
+    },
+    {
+      "topic": "жарық",
+      "count": 7
+    },
+    {
+      "topic": "жаяу",
+      "count": 7
+    },
+    {
+      "topic": "жаңа",
+      "count": 7
+    },
+    {
+      "topic": "жеті",
+      "count": 7
+    },
+    {
+      "topic": "жын",
+      "count": 7
+    },
+    {
+      "topic": "жүн",
+      "count": 7
+    },
+    {
+      "topic": "жұдырық",
+      "count": 7
+    },
+    {
+      "topic": "кешірім",
+      "count": 7
+    },
+    {
+      "topic": "күрес",
+      "count": 7
+    },
+    {
+      "topic": "көре алмаушылық",
+      "count": 7
+    },
+    {
+      "topic": "көш",
+      "count": 7
+    },
+    {
+      "topic": "мақтаншақ",
+      "count": 7
+    },
+    {
+      "topic": "нар",
+      "count": 7
+    },
+    {
+      "topic": "орын",
+      "count": 7
+    },
+    {
+      "topic": "сабан",
+      "count": 7
+    },
+    {
+      "topic": "сабырлық",
+      "count": 7
+    },
+    {
+      "topic": "сана",
+      "count": 7
+    },
+    {
+      "topic": "семіру",
+      "count": 7
+    },
+    {
+      "topic": "сұңқар",
+      "count": 7
+    },
+    {
+      "topic": "табақ",
+      "count": 7
+    },
+    {
+      "topic": "тағдыр",
+      "count": 7
+    },
+    {
+      "topic": "тері",
+      "count": 7
+    },
+    {
+      "topic": "тиын",
+      "count": 7
+    },
+    {
+      "topic": "тілеу",
+      "count": 7
+    },
+    {
+      "topic": "тірі",
+      "count": 7
+    },
+    {
+      "topic": "тұзақ",
+      "count": 7
+    },
+    {
+      "topic": "тән",
+      "count": 7
+    },
+    {
+      "topic": "төбе",
+      "count": 7
+    },
+    {
+      "topic": "шыдам",
+      "count": 7
+    },
+    {
+      "topic": "ыдыс",
+      "count": 7
+    },
+    {
+      "topic": "ысырапшылдық",
+      "count": 7
+    },
+    {
+      "topic": "із",
+      "count": 7
+    },
+    {
+      "topic": "қаза",
+      "count": 7
+    },
+    {
+      "topic": "қала",
+      "count": 7
+    },
+    {
+      "topic": "қамшы",
+      "count": 7
+    },
+    {
+      "topic": "қараңғы",
+      "count": 7
+    },
+    {
+      "topic": "қартаю",
+      "count": 7
+    },
+    {
+      "topic": "қасиет",
+      "count": 7
+    },
+    {
+      "topic": "қасық",
+      "count": 7
+    },
+    {
+      "topic": "қисық",
+      "count": 7
+    },
+    {
+      "topic": "үйрету",
+      "count": 7
+    },
+    {
+      "topic": "үлгі",
+      "count": 7
+    },
+    {
+      "topic": "ұру",
+      "count": 7
+    },
+    {
+      "topic": "өсиет",
+      "count": 7
+    },
+    {
+      "topic": "алдау",
+      "count": 6
+    },
+    {
+      "topic": "ант",
+      "count": 6
+    },
+    {
+      "topic": "ара",
+      "count": 6
+    },
+    {
+      "topic": "арамдық",
+      "count": 6
+    },
+    {
+      "topic": "арақ",
+      "count": 6
+    },
+    {
+      "topic": "арқа",
+      "count": 6
+    },
+    {
+      "topic": "ақсақ",
+      "count": 6
+    },
+    {
+      "topic": "балта",
+      "count": 6
+    },
+    {
+      "topic": "басшы",
+      "count": 6
+    },
+    {
+      "topic": "бойдақ",
+      "count": 6
+    },
+    {
+      "topic": "бос",
+      "count": 6
+    },
+    {
+      "topic": "бұзу",
+      "count": 6
+    },
+    {
+      "topic": "бұқа",
+      "count": 6
+    },
+    {
+      "topic": "бөз",
+      "count": 6
+    },
+    {
+      "topic": "дала",
+      "count": 6
+    },
+    {
+      "topic": "дін",
+      "count": 6
+    },
+    {
+      "topic": "дұшпандық",
+      "count": 6
+    },
+    {
+      "topic": "дәрі",
+      "count": 6
+    },
+    {
+      "topic": "екі",
+      "count": 6
+    },
+    {
+      "topic": "ерке",
+      "count": 6
+    },
+    {
+      "topic": "есім",
+      "count": 6
+    },
+    {
+      "topic": "жалған",
+      "count": 6
+    },
+    {
+      "topic": "жауын",
+      "count": 6
+    },
+    {
+      "topic": "жауынгер",
+      "count": 6
+    },
+    {
+      "topic": "жеу",
+      "count": 6
+    },
+    {
+      "topic": "жоқтық",
+      "count": 6
+    },
+    {
+      "topic": "жуас",
+      "count": 6
+    },
+    {
+      "topic": "жүгіру",
+      "count": 6
+    },
+    {
+      "topic": "жүйрік",
+      "count": 6
+    },
+    {
+      "topic": "залым",
+      "count": 6
+    },
+    {
+      "topic": "кемеңгер",
+      "count": 6
+    },
+    {
+      "topic": "кемпір",
+      "count": 6
+    },
+    {
+      "topic": "керуен",
+      "count": 6
+    },
+    {
+      "topic": "кесу",
+      "count": 6
+    },
+    {
+      "topic": "киік",
+      "count": 6
+    },
+    {
+      "topic": "күз",
+      "count": 6
+    },
+    {
+      "topic": "күншіл",
+      "count": 6
+    },
+    {
+      "topic": "күшті",
+      "count": 6
+    },
+    {
+      "topic": "көсем",
+      "count": 6
+    },
+    {
+      "topic": "мақсат",
+      "count": 6
+    },
+    {
+      "topic": "мойын",
+      "count": 6
+    },
+    {
+      "topic": "мола",
+      "count": 6
+    },
+    {
+      "topic": "нағашы",
+      "count": 6
+    },
+    {
+      "topic": "немере",
+      "count": 6
+    },
+    {
+      "topic": "несібе",
+      "count": 6
+    },
+    {
+      "topic": "озу",
+      "count": 6
+    },
+    {
+      "topic": "пана",
+      "count": 6
+    },
+    {
+      "topic": "піл",
+      "count": 6
+    },
+    {
+      "topic": "ру",
+      "count": 6
+    },
+    {
+      "topic": "сауап",
+      "count": 6
+    },
+    {
+      "topic": "сорпа",
+      "count": 6
+    },
+    {
+      "topic": "сылтау",
+      "count": 6
+    },
+    {
+      "topic": "сынау",
+      "count": 6
+    },
+    {
+      "topic": "табу",
+      "count": 6
+    },
+    {
+      "topic": "тал",
+      "count": 6
+    },
+    {
+      "topic": "тары",
+      "count": 6
+    },
+    {
+      "topic": "терек",
+      "count": 6
+    },
+    {
+      "topic": "уайым",
+      "count": 6
+    },
+    {
+      "topic": "уәде",
+      "count": 6
+    },
+    {
+      "topic": "хат",
+      "count": 6
+    },
+    {
+      "topic": "шал",
+      "count": 6
+    },
+    {
+      "topic": "шаң",
+      "count": 6
+    },
+    {
+      "topic": "ін",
+      "count": 6
+    },
+    {
+      "topic": "қате",
+      "count": 6
+    },
+    {
+      "topic": "қызмет",
+      "count": 6
+    },
+    {
+      "topic": "қымбат",
+      "count": 6
+    },
+    {
+      "topic": "құлын",
+      "count": 6
+    },
+    {
+      "topic": "үйрену",
+      "count": 6
+    },
+    {
+      "topic": "әлем",
+      "count": 6
+    },
+    {
+      "topic": "әңгіме",
+      "count": 6
+    },
+    {
+      "topic": "өлең",
+      "count": 6
+    },
+    {
+      "topic": "алма",
+      "count": 6
+    },
+    {
+      "topic": "батылдық",
+      "count": 6
+    },
+    {
+      "topic": "шыдамдылық",
+      "count": 6
+    },
+    {
+      "topic": "Мақал-мәтел",
+      "count": 5
+    },
+    {
+      "topic": "азап",
+      "count": 5
+    },
+    {
+      "topic": "алуа",
+      "count": 5
+    },
+    {
+      "topic": "амал",
+      "count": 5
+    },
+    {
+      "topic": "аққу",
+      "count": 5
+    },
+    {
+      "topic": "балықшы",
+      "count": 5
+    },
+    {
+      "topic": "баға",
+      "count": 5
+    },
+    {
+      "topic": "бағбан",
+      "count": 5
+    },
+    {
+      "topic": "бақыр",
+      "count": 5
+    },
+    {
+      "topic": "бәйбіше",
+      "count": 5
+    },
+    {
+      "topic": "дастархан",
+      "count": 5
+    },
+    {
+      "topic": "дауыл",
+      "count": 5
+    },
+    {
+      "topic": "диқан",
+      "count": 5
+    },
+    {
+      "topic": "егінші",
+      "count": 5
+    },
+    {
+      "topic": "ерін",
+      "count": 5
+    },
+    {
+      "topic": "етікші",
+      "count": 5
+    },
+    {
+      "topic": "жалын",
+      "count": 5
+    },
+    {
+      "topic": "жеңге",
+      "count": 5
+    },
+    {
+      "topic": "жеңіс",
+      "count": 5
+    },
+    {
+      "topic": "жолбарыс",
+      "count": 5
+    },
+    {
+      "topic": "жылы",
+      "count": 5
+    },
+    {
+      "topic": "жүру",
+      "count": 5
+    },
+    {
+      "topic": "жұлдыз",
+      "count": 5
+    },
+    {
+      "topic": "зар",
+      "count": 5
+    },
+    {
+      "topic": "заң",
+      "count": 5
+    },
+    {
+      "topic": "зергер",
+      "count": 5
+    },
+    {
+      "topic": "игілік",
+      "count": 5
+    },
+    {
+      "topic": "ишарат",
+      "count": 5
+    },
+    {
+      "topic": "кеш",
+      "count": 5
+    },
+    {
+      "topic": "кешігу",
+      "count": 5
+    },
+    {
+      "topic": "көсеу",
+      "count": 5
+    },
+    {
+      "topic": "лақ",
+      "count": 5
+    },
+    {
+      "topic": "ми",
+      "count": 5
+    },
+    {
+      "topic": "мін",
+      "count": 5
+    },
+    {
+      "topic": "мұғалім",
+      "count": 5
+    },
+    {
+      "topic": "нәпсі",
+      "count": 5
+    },
+    {
+      "topic": "ойлау",
+      "count": 5
+    },
+    {
+      "topic": "олақ",
+      "count": 5
+    },
+    {
+      "topic": "опа",
+      "count": 5
+    },
+    {
+      "topic": "орыс",
+      "count": 5
+    },
+    {
+      "topic": "пенде",
+      "count": 5
+    },
+    {
+      "topic": "пендешілік",
+      "count": 5
+    },
+    {
+      "topic": "сапар",
+      "count": 5
+    },
+    {
+      "topic": "саудагер",
+      "count": 5
+    },
+    {
+      "topic": "саусақ",
+      "count": 5
+    },
+    {
+      "topic": "сел",
+      "count": 5
+    },
+    {
+      "topic": "семіз",
+      "count": 5
+    },
+    {
+      "topic": "сұм",
+      "count": 5
+    },
+    {
+      "topic": "тамшы",
+      "count": 5
+    },
+    {
+      "topic": "тақ",
+      "count": 5
+    },
+    {
+      "topic": "тыныштық",
+      "count": 5
+    },
+    {
+      "topic": "тырнақ",
+      "count": 5
+    },
+    {
+      "topic": "тіршілік",
+      "count": 5
+    },
+    {
+      "topic": "тұлпар",
+      "count": 5
+    },
+    {
+      "topic": "төсек",
+      "count": 5
+    },
+    {
+      "topic": "шелек",
+      "count": 5
+    },
+    {
+      "topic": "шәкірт",
+      "count": 5
+    },
+    {
+      "topic": "ізгі",
+      "count": 5
+    },
+    {
+      "topic": "ізет",
+      "count": 5
+    },
+    {
+      "topic": "қора",
+      "count": 5
+    },
+    {
+      "topic": "қуану",
+      "count": 5
+    },
+    {
+      "topic": "қызық",
+      "count": 5
+    },
+    {
+      "topic": "қырық",
+      "count": 5
+    },
+    {
+      "topic": "үндемеу",
+      "count": 5
+    },
+    {
+      "topic": "үнемдеу",
+      "count": 5
+    },
+    {
+      "topic": "өкініш",
+      "count": 5
+    }
+  ]
+}
