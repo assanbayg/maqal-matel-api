@@ -146,27 +146,38 @@ def search_maqals_by_topic(
     page: int = Query(1, ge=1, description="Page number"),
     limit: int = Query(20, ge=1, le=100, description="Maximum results"),
 ):
-    """ "Get maqal-matels by specific topic"""
+    """Get maqal-matels by specific topic"""
     offset = (page - 1) * limit
+    search_term = f"%{topic}%"
 
     with get_db() as conn:
         cursor = conn.cursor()
+
+        cursor.execute(
+            """
+            SELECT COUNT(*) FROM maqal_matelder m, json_each(m.topics) t
+            WHERE t.value LIKE ?
+            """,
+            (search_term,),
+        )
+        total = cursor.fetchone()[0]
+
         cursor.execute(
             """
             SELECT m.* FROM maqal_matelder m, json_each(m.topics) t
             WHERE t.value LIKE ?
             ORDER BY m.id
-            LIMIT ?  
+            LIMIT ? OFFSET ?
             """,
-            (f"%{topic}%", limit),
+            (search_term, limit, offset),
         )
 
         rows = cursor.fetchall()
-
         results = [create_maqal_from_row(row) for row in rows]
+
         return TopicMaqalResponse(
             topic=topic,
             results=results,
-            pagination=create_pagination(len(results), page, limit),
-            message=f"Page {page} of {(len(results) + limit - 1) // limit}",
+            pagination=create_pagination(total, page, limit),
+            message=f"Page {page} of {(total + limit - 1) // limit}",
         )
